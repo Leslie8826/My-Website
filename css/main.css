@@ -119,6 +119,7 @@ section{
 .parent{
     display: flex;
     font-family: arial, sans-serif;
+    height: 100%;
 }
 
 #mainLeft{
