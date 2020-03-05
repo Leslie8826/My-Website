@@ -1,0 +1,163 @@
+/* RULES FOR MAIN PART */
+section{
+    margin-bottom: 0;
+}
+
+.parentCat{
+    display: flex;
+    font-family: arial, sans-serif;
+    /*border: 1px solid black;*/
+}
+
+/* MENU ON THE LEFT */
+#menuLeft{
+    width: 20%;
+    padding: 2em;
+    color: black;
+    /*background: deepskyblue;*/
+    background: linen;
+
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    border-right: 3px solid dodgerblue;
+    border-left: 3px solid dodgerblue;
+}
+
+
+/* MENU BUTTONS ON THE LEFT */
+.menuButton {
+    background-color: dodgerblue;
+    /* width: 200px; */
+    width: 120%;
+    border: 3px solid black;
+    height: 30px;
+    margin: 4px 10px 30px 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+.menuButton a{
+    color: white;
+    text-decoration: none;
+}
+.menuButton a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*Active button in main left menu*/
+.active_menuButton {
+    background-color: burlywood;
+    /* width: 200px; */
+    width: 120%;
+    height: 30px;
+    border: 3px solid black;
+    margin: 4px 10px 30px 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+.active_menuButton a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* MENU ON THE RIGHT */
+#menuRight {
+    /* margin: 0 auto; */
+    max-width: 1800px;
+    padding: 40px 40px 40px 40px;
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+    /* width: 830px; */
+    width: 80%;
+
+    border-right: 3px solid dodgerblue;
+
+}
+
+#menuRight h1 {
+    color: darkblue;
+    /*text-decoration: underline;
+    text-decoration-color: blue;*/
+    text-align: center;
+}
+
+#menuRight p {
+    text-align: justify;
+    /* font-size: large; */
+    /* color: lightgrey; */
+    color: darkblue;
+}
+
+#menuRight ul {
+    text-align: justify;
+    /* font-size: large; */
+    color: darkblue;
+    /* text-decoration: underline;
+    text-decoration-color: blue; */
+}
+
+#menuRight ol {
+    text-align: justify;
+    /* font-size: large; */
+    color: white;
+    /* text-decoration: underline;
+    text-decoration-color: blue; */
+}
+
+#menuRight li {
+    margin-left: 50px;
+    text-align: justify;
+    color: darkblue;
+    text-decoration: none;
+    /*  font-size: large; */
+}
+
+.responsive-image{
+    max-width: 70%;
+    padding-left: 0;
+}
+
+
+/* Title in button form */
+.button {
+    /* background-color: dodgerblue; */
+    margin-top: 15px;
+    background-color: dodgerblue;
+    /* width: 810px; */
+    width: 100%;
+    height: 35px;
+    /* margin: 4px 10px 0 0; */
+    /*margin-right: 10px;
+    margin-left: 10px;*/
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 3px solid darkblue;
+}
+
+
+.button a{
+    color: white;
+    text-decoration: none;
+}
+
+.button a:hover {
+    color: dimgray;
+    text-decoration: none;
+}
+
+
+
+
