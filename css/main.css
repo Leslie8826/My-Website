@@ -124,7 +124,7 @@ section{
 
 #mainLeft{
     width: 50%;
-    padding: 2em;
+   /* padding: 2em; */
     color: white;
     /*background: deepskyblue;*/
     background: black;
@@ -143,7 +143,7 @@ section{
 #mainRight{
     height: 100%;
     width: 50%;
-    padding: 2em;
+   /* padding: 2em; */
     color: dodgerblue;
    /* min-height: 500px; */
     background: black;
