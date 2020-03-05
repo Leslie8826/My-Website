@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Website - Teaching Experience - AI</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="My Website - Teaching Experience - AI">
+    <meta name="author" content="Leslie8826">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <!-- <link rel="stylesheet" href="css/ai_scratch.css"> -->
+</head>
+
+<body>
+<header>
+    <div id="leftHeader">
+        <div class="buttonHeader">
+            <a href="index.html">Home</a></div>
+    </div>
+    <div id="midHeader">
+        <div class="dropdown">
+            <p class="dropdownSelect">Select</p>
+            <div class="dropdownContent">
+                <p><a href="projects.html">Projects</a></p>
+                <p><a href="teaching.html">Teaching</a></p>
+                <p><a href="routine.html">Routine</a></p>
+                <p><a href="anecdotes.html">Anecdotes</a></p>
+            </div>
+        </div>
+    </div>
+    <div id="rightHeader">
+        <div class="buttonHeader"><a href="mamp.html">Go Back</a></div>
+    </div>
+</header>
+
+<section>
+    <div class="parentCat">
+        <div id="menuLeft">
+            <div class="menuButton"><a href="java.html">Java</a></div>
+            <div class="menuButton"><a href="html_css.html">Html & Css</a></div>
+            <div class="menuButton"><a href="mamp.html">Mamp stack</a></div>
+            <div class="active_menuButton"><a href="sql_tableau.html">Sql & Tableau</a></div>
+        </div>
+
+        <div id="menuRight">
+            <h1><div class="button">Sql & Tableau</div></h1>
+            <!-- <ol> -->
+                <!-- <div class="miniButton"><li>Oracle</li></div> -->
+            <div class="miniButton">Oracle</div>
+            <ul>
+                    <li>We are given an <a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/4.%20Creation%20of%20stage%20table/HR_Data.xlsx">excel file</a>,
+                        HR_data.xlsx, with a lot of data on a company's employees. The purpose of this project is to analyse the data according to some requirements.</li>
+
+                       <li><p>After analysing the excel file and after some <a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/1.%20Brainstorming/Brainstorming.jpg">brainstorming</a>,
+                    we came up with a list of categories based upon the type of data. Each category would represent a table in our database. We wrote everything on paper.</p></li>
+
+                    <li><p> We draw each table on paper and added the relationships between tables when necessary, which formed our <a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/2.%20Database%20Model/DatabaseModel.png"> Database model</a>.
+                    Then we draw our data model in Oracle Data Modeler. </p></li>
+
+                   <br> <li> We <a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/3.%20Creation%20of%20the%20database/database_ddl.sql"> created our database </a>
+                        with ddl statements in Oracle SQL Developer from the database model built in point 2. </li>
+
+                    <br> <li> We also <a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/4.%20Creation%20of%20stage%20table/README.md">created a stage</a>
+                        table where we inserted all the data that exist from the excel file HR_Data.xlsx. </li>
+
+                    <br> <li> We <a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/5.%20Populating%20the%20database/dml.sql">populated the database</a> with dml statements.
+                        The data inserted came from the stage table. The table created are below:
+                        <ul>
+                            <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/5.%20Populating%20the%20database/hr2_region.png">Table 1</a></li>
+                            <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/5.%20Populating%20the%20database/hr2_location.png">Table 2</a></li>
+                            <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/5.%20Populating%20the%20database/hr2_country.png">Table 3</a></li>
+                            <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/5.%20Populating%20the%20database/hr2_department.png">Table 4</a></li>
+                            <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/5.%20Populating%20the%20database/hr2_employee.png">Table 5</a></li>
+                            <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/5.%20Populating%20the%20database/hr2_job.png">Table 6</a></li>
+                            <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/5.%20Populating%20the%20database/hr2_job_hist.png">Table 7</a></li>
+                        </ul>
+                    </li>
+                    <br> <li> With dml statements we could  <a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/6.%20Data%20visualization/queries_for_analysis.sql">querying the database</a>
+                        and get the information we needed to get the company analyzed. We also visualized the data queries with Tableau Software as seen below:
+                        <ul>
+                            <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/6.%20Data%20visualization/Q23_Tableau_Oracle_V2.png">Visual 1</a></li>
+                            <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/6.%20Data%20visualization/Q41_Tableau_Oracle_V2.png">Visual 2</a></li>
+                            <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/6.%20Data%20visualization/Q26_Tableau_Oracle_V3.png">Visual 3</a></li>
+                            <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/6.%20Data%20visualization/Q46_Tableau_Oracle.png">Visual 4</a></li>
+                            <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/6.%20Data%20visualization/Q68_Tableau_Oracle_V2.png">Visual 5</a></li>
+                            <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/Oracle/Project%201/6.%20Data%20visualization/Q68_Tableau_Oracle_V3.png">Visual 6</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <!-- <br><br> <div class="miniButton"><li>MySQL</li></div> -->
+            <br><br> <div class="miniButton">MySQL</div>
+                <p>In this project, we created a MySQL database of a non-profit organization based on the schema provided.
+                    Then, we populate the database created with data using dml statements.</p>
+                <ul>
+                <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/MySQL/Homework/Homework_1/1.%20Database%20Schema/non_profit_organization_DB_Schema.png">Database schema</a> </li>
+                <li> <a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/MySQL/Homework/Homework_1/2.%20Creation%20of%20the%20database/non_profit_organization_ddl.sql">Creation of the database</a></li>
+                <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/MySQL/Homework/Homework_1/3.%20Populating%20the%20tables%20of%20the%20database/non_profit_organization_dml.sql">Populating the tables of the database</a></li>
+                <li><a href="https://github.com/Leslie8826/SQL-TABLEAU/blob/master/MySQL/Homework/Homework_1/4.%20Data%20visualization/Queries%20For%20Analysis/queries_for_analysis.sql">Data visualization</a></li>
+                </ul>
+           <!-- </ol> -->
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div id="footerLeft">
+        <p>&copy; 2020 My Website</p>
+    </div>
+    <div id="footerRight">
+        <a href="https://github.com/Leslie8826"><img src ="images/github_logo.png" alt="Github"></a>
+        <a href="https://scratch.mit.edu/users/Leslie_Instructor/"><img src ="images/scratch_logo2.png" alt ="Scratch"></a>
+    </div>
+</footer>
+
+</body>
+</html>
