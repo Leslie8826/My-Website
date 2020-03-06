@@ -6,7 +6,7 @@ section{
 .parentCat{
     display: flex;
     font-family: arial, sans-serif;
-    /*border: 1px solid black;*/
+     height: 1290px;
 }
 
 /* MENU ON THE LEFT */
@@ -23,8 +23,8 @@ section{
     flex-direction: column;
     justify-content: center;
 
-    border-right: 3px solid dodgerblue;
-    border-left: 3px solid dodgerblue;
+    border-right: 5px solid dodgerblue;
+    border-left: 5px solid dodgerblue;
 }
 
 
@@ -32,7 +32,9 @@ section{
 .menuButton {
     background-color: dodgerblue;
     /* width: 200px; */
-    width: 120%;
+    /*width: 120%;*/
+    min-width: 100%;
+    max-width: 120%;
     border: 3px solid black;
     height: 30px;
     margin: 4px 10px 30px 0;
@@ -54,7 +56,9 @@ section{
 .active_menuButton {
     background-color: burlywood;
     /* width: 200px; */
-    width: 120%;
+    min-width: 100%;
+    max-width: 120%;
+    /*width: 120%;*/
     height: 30px;
     border: 3px solid black;
     margin: 4px 10px 30px 0;
@@ -82,7 +86,7 @@ section{
    /* width: 830px; */
     width: 80%;
 
-    border-right: 3px solid dodgerblue;
+    border-right: 5px solid dodgerblue;
 
 }
 
@@ -132,7 +136,6 @@ section{
 
 /* Title in button form */
 .button {
-    /* background-color: dodgerblue; */
     margin-top: 15px;
     background-color: dodgerblue;
     /* width: 810px; */
