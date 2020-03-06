@@ -6,7 +6,7 @@ section{
 .parentCat{
     display: flex;
     font-family: arial, sans-serif;
-    /*border: 1px solid black;*/
+    min-height: 1290px;
 }
 
 /* MENU ON THE LEFT */
@@ -23,8 +23,8 @@ section{
     flex-direction: column;
     justify-content: center;
 
-    border-right: 3px solid dodgerblue;
-    border-left: 3px solid dodgerblue;
+    border-right: 5px solid dodgerblue;
+    border-left: 5px solid dodgerblue;
 }
 
 
@@ -32,13 +32,16 @@ section{
 .menuButton {
     background-color: dodgerblue;
     /* width: 200px; */
-    width: 120%;
+    /*width: 120%;*/
+    min-width: 100%;
+    max-width: 120%;
     border: 3px solid black;
     height: 30px;
     margin: 4px 10px 30px 0;
     text-align: center;
     line-height: 30px;
     border-radius: 8px;
+
 }
 
 .menuButton a{
@@ -54,7 +57,9 @@ section{
 .active_menuButton {
     background-color: burlywood;
     /* width: 200px; */
-    width: 120%;
+    min-width: 100%;
+    max-width: 120%;
+    /*width: 120%;*/
     height: 30px;
     border: 3px solid black;
     margin: 4px 10px 30px 0;
@@ -74,7 +79,7 @@ section{
     /* margin: 0 auto; */
     max-width: 1800px;
     padding: 40px 40px 40px 40px;
-    background-color: lightgrey;
+    background-color: grey;
     display: flex;
     flex-wrap: wrap;
 
@@ -82,7 +87,7 @@ section{
     /* width: 830px; */
     width: 80%;
 
-    border-right: 3px solid dodgerblue;
+    border-right: 5px solid dodgerblue;
 
 }
 
@@ -125,8 +130,9 @@ section{
 }
 
 .responsive-image{
-    max-width: 70%;
+    width: 60%;
     padding-left: 0;
+    margin-left: 150px;
 }
 
 
@@ -160,4 +166,17 @@ section{
 
 
 
+/* Title in mini button */
+.miniButton {
+    margin-top: 15px;
+    background-color: dodgerblue;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 3px solid darkblue;
 
+    color: white;
+    text-decoration: none;
+}
