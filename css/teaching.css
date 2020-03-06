@@ -6,7 +6,7 @@ section{
 .parentCat{
     display: flex;
     font-family: arial, sans-serif;
-    /*border: 1px solid black;*/
+    /* height: 100vh;*/
 }
 
 /* MENU ON THE LEFT */
@@ -26,7 +26,9 @@ section{
 /* MENU BUTTONS ON THE LEFT */
 .menuButton {
     background-color: dodgerblue;
-    width: 200px;
+   /* width: 200px;*/
+    min-width: 100%;
+    max-width: 120%;
     height: 30px;
     margin: 4px 10px 30px 0;
     text-align: center;
