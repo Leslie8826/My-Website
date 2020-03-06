@@ -128,7 +128,9 @@ section{
     text-decoration: none;
 }
 
-
+.paragraph{
+    margin-top: 50px;
+}
 
 /* Arrange the images as horizontal table in gallery */
 #gallery{
